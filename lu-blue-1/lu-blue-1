@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+git -C /var/home/$USER/.local clone https://github.com/Luiza1011/lu-dotfiles.git
+
+sh /var/home/$USER/.local/lu-dotfiles/install.sh
+
